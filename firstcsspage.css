@@ -1,0 +1,106 @@
+/* Ensure full page height */
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container to split left and right sections */
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Left section styling */
+.left-section {
+    flex: 1;
+    background: #f68722;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Image and text inside left section */
+.branding img {
+    max-width: 80px; /* Adjust the logo size */
+    margin-bottom: 20px;
+}
+
+.branding h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.branding p {
+    font-size: 18px;
+}
+
+/* Right section styling */
+.right-section {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Login form styling */
+.login-form {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f68722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #e06a1b;
+}
+
+.register-text {
+    margin-top: 20px;
+}
+
+.register-text a {
+    color: #f68722;
+    text-decoration: none;
+}

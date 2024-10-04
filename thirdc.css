@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Menu Toggle Button */
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Centered Search Bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Margin for spacing above and below */
+}
+
+.search-form {
+    display: flex; /* Align input and button */
+    background-color: #fff; /* Background color of the search form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.search-input {
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px 0 0 5px; /* Rounded corners on left */
+    outline: none; /* Remove outline */
+}
+
+.search-button {
+    background-color: #333; /* Button color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px; /* Padding for button */
+    border-radius: 0 5px 5px 0; /* Rounded corners on right */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.search-button:hover {
+    background-color: #575757; /* Darker color on hover */
+}
+
+/* Sidebar */
+.sidebar {
+    height: 100%;
+    width: 0; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f4f4f4;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Content */
+.content {
+    margin: 20px; /* Add some margin for the content */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #575757;
+}

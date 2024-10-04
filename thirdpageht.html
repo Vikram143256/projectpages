@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page with Sidebar</title>
+  <link rel="stylesheet" href="thirdc.css">
+</head>
+<body>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  
+  <!-- Centered Search Bar -->
+  <div class="search-container">
+    <form class="search-form">
+      <input type="text" placeholder="Search..." class="search-input" aria-label="Search">
+      <button type="submit" class="search-button">🔍</button> <!-- Search Icon -->
+    </form>
+  </div>
+
+  <div id="sidebar" class="sidebar">
+    <a href="#" class="close-btn" onclick="toggleMenu()">×</a>
+    <a href="#">Wish List</a>
+  </div>
+
+  <script src="javascriptfile.js"></script>
+</body>
+</html>
